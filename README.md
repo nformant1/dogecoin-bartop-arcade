@@ -1,18 +1,27 @@
 # :space_invader: Dogecoin Bartop Arcade
 Collection of scripts to run a Dogecoin Bartop Arcade
 
+## Dependencies
+Run
+```bash
+pip install -r requirements.txt 
+```
+
 ## Configurations
-you need to change this in main.py
+You need to change this in config.py:
 
 ```python
 rpcuser = "YOUR_RPC_USER"
 rpcpassword = "YOUR_RPC_PASSWORD"
+rpcport = XXXX
 ```
 
 and you need to setup the credentials in dogecoin.conf
 ```
+server=1
 rpcuser=YOUR_RPC_USER
 rpcpassword=YOUR_RPC_PASSWORD
+rpcport=XXXX
 ```
 
 ## Set enviroment variable
